@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Componen } from '@angular/core';
 import { Comment} from './class/comment';
 import { User} from './class/user';
 
