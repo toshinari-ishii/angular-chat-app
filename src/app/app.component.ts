@@ -1,4 +1,4 @@
-import { Componen } from '@angular/core';
+import { Component } from '@angular/core';
 import { Comment} from './class/comment';
 import { User} from './class/user';
 
@@ -13,7 +13,7 @@ const COMMENTS: Comment[]=[
   new Comment(CURRENT_USER,"OKです！"),
 ];
 
-@Component({
+@({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
