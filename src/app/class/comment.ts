@@ -2,7 +2,7 @@ import {User} from "./user";
 
 export class Comment {
     user: User;
-    initial: string;
+    initial: ;
     message: string;
 
 
