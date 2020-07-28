@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { Comment} from './class/comment';
 import { User} from './class/user';
-import { User} from './class/user';
 
 
 const CURRENT_USER:User= new User(1,"石井俊成");
